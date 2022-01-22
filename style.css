@@ -1,0 +1,72 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  background-color: rgba(51, 51, 51, 0.2);
+}
+
+h1 {
+  text-align: center;
+}
+
+.container {
+  padding: 0.5em;
+  display: grid;
+  gap: 2em;
+  font-size: 20px;
+  background-color: rgba(51, 51, 51, 0.15);
+}
+
+.input-area {
+  padding: 1em;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  background-color: rgba(51, 51, 51, 0.1);
+}
+
+label {
+  font-weight: bold;
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+
+input {
+  font-size: inherit;
+  width: 80%;
+}
+
+#btn{
+    align-self: center;
+}
+
+table,
+th,
+td {
+  border: 2px solid #111;
+  border-collapse: collapse;
+  width: 100%;
+  font-size: inherit;
+}
+
+.first-row {
+  width: 50%;
+  text-transform: capitalize;
+}
+
+.second-row {
+  width: 25%;
+}
+
+.third-row {
+  width: 15%;
+}
+
+.btn-row {
+  width: 5%;
+  text-align: center;
+}
